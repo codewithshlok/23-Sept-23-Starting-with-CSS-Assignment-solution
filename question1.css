@@ -1,0 +1,10 @@
+.external{
+    background-color: tomato;
+    color: black;
+}
+.internalAndexternal{
+    background-color: burlywood;
+}
+.internalinlineExterrnal{
+    background-color: rgb(5, 74, 0);
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/question1.css">
+    <style>
+        /* Adding Internal CSS */
+        .internal{
+            background-color: greenyellow;
+            color: black;
+        }
+        .internalAndinline{
+            background-color: yellow;
+        }
+        .internalAndexternal{
+            background-color: royalblue;
+        }
+        .internalinlineExterrnal{
+            background-color: darkmagenta;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: cyan; color: black;">I am Inline</div> <!-- Adding Inline css-->
+
+    <div class="internal">I am Internal</div> <!-- Adding  internal css using style tag -->
+
+    <div class="external">I am External CSS</div> <!-- Adding css from external file from question1.css-->
+
+    <!-- Adding css from inline and internal out of which inline CSS will be given importance.-->
+    <div class="internalAndinline" style="background-color: blueviolet;">Inline and Internal</div>
+
+    <!-- Adding css from external and internal out of which internal CSS will be given importance.-->
+    <div class="internalAndexternal">Internal and External</div>
+
+    <!-- Adding css from inline , internal nad external out of which inline CSS will be given importance.-->
+    <div class="internalinlineExterrnal" style="background-color: red;">Inline + Internal + External</div>
+</body>
+</html>
